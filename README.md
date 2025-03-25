@@ -1,0 +1,10 @@
+# Lean Formalization of Generalization Error Bound by Rademacher Complexity
+## Abstract
+We formalize the generalization error bound using Rademacher complexity in the Lean 4 theorem
+prover. Generalization error quantifies the gap between a learning machine’s performance on given
+training data versus unseen test data, and Rademacher complexity serves as an estimate of this error
+based on the complexity of learning machines, or hypothesis class. Unlike traditional methods such as
+PAC learning and VC dimension, Rademacher complexity is applicable across diverse machine learning
+scenarios including deep learning and kernel methods. We formalize key concepts and theorems, including
+the empirical and population Rademacher complexities, and establish generalization error bounds through
+formal proofs of McDiarmid’s inequality, Hoeffding’s lemma, and symmetrization arguments.
